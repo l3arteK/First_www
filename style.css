@@ -1,0 +1,268 @@
+body
+{
+  margin:auto;
+  background-image:url(img/tlo2.jpg);
+ 
+}
+#footer
+{
+width:100%;
+height:15%;
+background-color:yellow;
+position:fixed;
+z-index:100;
+
+}
+.logo
+{ 
+float:left;
+margin-left:75px;
+font-size: 76px;
+margin:25px 90px;
+font-family: 'Open Sans', sans-serif;
+letter-spacing:4px;
+}
+.logolink
+{
+	color:black;
+}
+.kafelek
+{
+float:left;
+height: 50px;
+width:192px;
+background-color:grey;
+margin:50px 70px;
+font-family: 'Permanent Marker', cursive;
+font-size:30px;
+text-align:center;
+color:#ECF0F1 ;
+border-radius:5px;
+}
+.kafelek:hover
+{	
+background-color:#919191;
+box-shadow: inset 5px 5px 10px #000000, inset -3px -3px 10px #ffffff ;	
+color:white ;
+}
+#zawartosc
+{
+width:1000px;
+background-color:silver;
+margin:auto;
+font-family: 'Domine', serif;
+font-size:20px;
+text-align:center;
+letter-spacing:2px;
+padding: 150px 20px 50px 20px;
+min-height:700px;
+}
+#stopka
+{
+background-color:black;
+color:white;	
+font-family: 'Open Sans', sans-serif;
+font-size:14px;
+text-align:center;
+padding:20px;
+clear:both;
+}
+a.link1
+{
+	color:white;
+	text-decoration:none;
+}
+
+h4
+{
+	font-size:24px;
+	text-decoration:underline;
+}
+.kafelki1
+{
+	height:100px;
+	width:200px;
+	background:linear-gradient(gray,silver,black);
+	float:left;
+	color:white;
+	margin:0px 150px;
+	font-size:16px;
+	font-family: 'Comfortaa', cursive;
+	margin-top:20px;
+	margin-bottom:100px;
+	border-radius:5px;
+	color:#ECF0F1;
+}
+.kafelki1:hover
+{
+box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px silver ;	
+color:white;
+}
+.span
+{
+	font-size:28px;
+}
+#socials
+{
+	width:100%;
+	background:linear-gradient(silver,black) ;
+	
+}
+#socialdivs
+{
+	width:1040px;
+	margin:auto;
+	color:white;
+	text-align:center;
+}
+#fb
+{
+	width:260px;
+	height:155px;
+	float:left;
+	border-radius:5px;
+	
+}
+#fb:hover
+{
+	background-color:#3b5998;
+	cursor:pointer;
+}
+#skype
+{
+		width:260px;
+		height:155px;
+		float:left;
+		border-radius:5px;
+}
+#skype:hover
+{
+	background-color:#00aff0;
+	cursor:pointer;
+}
+#mail
+{
+	width:260px;
+	height:155px;
+	float:left;
+	border-radius:5px;
+}
+#mail:hover
+{
+	background-color:gray;
+	cursor:pointer;
+}
+#yt
+{
+		width:260px;
+		height:155px;
+		float:left;
+		border-radius:5px;
+}
+#yt:hover
+{
+	background-color:#c4302b;
+	cursor:pointer;
+}
+#kontakt
+{
+	width:500px;
+	padding:40px;
+	background-color:#2874A6 ;
+	margin:auto;
+	margin-top:100px;
+	box-shadow: 10px 10px 5px 10px rgba(0,0,0,0.75);
+}
+input[type=text],[type=tel],[type=email]
+{
+	width:300px;
+	height:50px;
+	font-size:24px;
+	box-sizing:border-box;
+	margin: 0 0 20px 100px;
+	padding:10px;
+	border-radius:5px;
+	background-color:#EAF2F8 ;
+	outline:none;
+	
+}
+input[type=text]:hover,
+[type=tel]:hover,
+[type=email]:hover
+{
+box-shadow: 0px 0px 10px 2px yellow;
+}
+input[type=text]:focus,
+[type=tel]:focus,
+[type=email]:focus
+{
+	border:2px solid green ;
+	background:white;
+}
+textarea
+{
+	font-size:15px;
+	margin-top:40px;
+	margin-bottom:40px;
+	background-color:#E5E7E9 ;
+}
+textarea:hover
+{
+	box-shadow: 0px 0px 10px 3px aqua;
+}
+textarea:focus
+{
+	border:2px solid blue;
+	background-color:white;
+}
+input[type=submit]
+{
+	width:300px;
+	height:60px;
+	font-size:30px;
+	box-sizing:border-box;
+	margin: 0 0 20px 100px;
+	padding:10px;
+	border-radius:15px;
+	background-color:#D2DD2B  ;
+	outline:none;
+	border:2px solid green;
+	color:#424949 ;
+}
+input[type=submit]:hover
+{
+	box-shadow: 0px 0px 10px 5px green;
+	color:black;
+}
+input[type=submit]:focus
+{
+	background-color:#E3ee3c;
+}
+#back
+{
+	height:50px;
+	width:150px;
+	font-size:40px;
+	background:linear-gradient(#46D0D0 ,black);
+	text-align:center;
+	padding:10px;
+	left:50px;
+	top:50px;
+	position:fixed;
+	border-radius:10px;
+}
+#back:hover
+{
+	box-shadow: 0px 0px 10px 3px white;
+}
+.photo
+{
+	width:800px;
+	height:490px;
+	margin:50px 0px;
+	transition:all 0.8s ;
+}
+.photo:hover
+{
+	transform:scale(1.33);
+}
